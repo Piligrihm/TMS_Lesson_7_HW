@@ -9,8 +9,8 @@ public class DocSorter {
         Scanner scanner = new Scanner(System.in);
 
         try {
-            //String path = scanner.next();
-            String path = ("D:\\TeachMeSkills\\TMS_Lesson_7_HW\\docNumberList.txt");
+            String path = scanner.next();
+            //String path = ("D:\\TeachMeSkills\\TMS_Lesson_7_HW\\docNumberList.txt");
 
             try (FileReader fis = new FileReader(path);
                  FileWriter fosDoc = new FileWriter("D:\\TeachMeSkills\\TMS_Lesson_7_HW\\docNum.txt");
